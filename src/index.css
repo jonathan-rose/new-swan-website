@@ -53,6 +53,7 @@ footer {
   align-items: center;
   width: 100%;
   background-color: rgba(var(--SWAN-medium));
+  padding-top: 10px;
   padding-bottom: 10px;
 }
 
