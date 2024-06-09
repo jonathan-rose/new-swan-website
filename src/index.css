@@ -29,11 +29,10 @@ code {
 
 header {
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+  flex-direction: column;
   flex: 1;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  justify-content: space-around;
+  align-items: center;
   width: 100%;
   background-color: rgba(var(--SWAN-vlight));
 }
@@ -48,11 +47,26 @@ footer {
   flex: 1;
 }
 
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: rgba(var(--SWAN-medium));
+  padding-bottom: 10px;
+}
+
+.banner #banner-text {
+  text-align: center;
+  width: 60%;
+}
+
 .logo {
   margin: 0px;
   margin-left: 5px;
   margin-right: 10px;
   padding: 0px;
+  cursor: pointer;
 }
 
 img#facebook {
@@ -69,6 +83,8 @@ nav {
   align-items: center;
   margin: 0;
   padding: 0;
+  padding-top: 15px;
+  padding-bottom: 15px;
   width: 80%;
   /* max-height: 100px; */
 }
