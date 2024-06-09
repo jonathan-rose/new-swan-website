@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import Footer from './components/footer/Footer';
 import Header from './components/header/Header';
 import About from './pages/About';
-import Contact from './pages/Contact';
+import Contact from './pages/Contact/Contact';
 import Gallery from './pages/Gallery';
 import Home from './pages/Home';
 import Video from './pages/Video';
