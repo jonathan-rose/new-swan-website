@@ -16,7 +16,7 @@
     width: 100%;
 }
 
-.contact-container h1, p {
+.contact-container h1, .contact-container p {
     color: rgb(var(--SWAN-dark), 0.9);
     text-decoration: none;
     font-weight: normal;
@@ -51,7 +51,7 @@
     color: rgb(var(--SWAN-dark));
 }
 
-.contact-span p, a {
+.contact-span p, .contact-span a {
     display: inline-block;
     margin: 0px;
     margin-left: 20px;

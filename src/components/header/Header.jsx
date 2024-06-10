@@ -6,10 +6,10 @@ export default function Header({ onLinkClick }) {
             <div className='banner'>
                 <div className='banner-item'>
                     <a onClick={() => onLinkClick('home')}>
-                        <Logo height="110px"></Logo>
+                        <Logo height="100px"></Logo>
                     </a>
                 </div>
-                <div className='banner-item' id="banner-text">
+                <div className='banner-item'>
                     <h1>South Weston Activity Network</h1>
                 </div>
                 <div className='banner-item'>
@@ -24,7 +24,6 @@ export default function Header({ onLinkClick }) {
                 <a onClick={() => onLinkClick('gallery')}>Gallery</a>
                 <a onClick={() => onLinkClick('video')}>Video</a>
                 <a onClick={() => onLinkClick('contact')}>Contact</a>
-
             </nav>
         </header>
     )
