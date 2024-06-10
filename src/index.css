@@ -33,7 +33,7 @@ header {
   justify-content: space-around;
   align-items: center;
   width: 100%;
-  background-color: rgba(var(--SWAN-vlight));
+  /* background-color: rgba(var(--SWAN-medium)); */
 }
 
 main {
@@ -58,7 +58,7 @@ footer {
   justify-content: space-evenly;
   align-items: center;
   width: 100%;
-  background-color: rgba(var(--SWAN-medium));
+  background-color: rgba(var(--SWAN-vlight));
 }
 
 
@@ -96,7 +96,7 @@ nav {
   padding: 0;
   padding-top: 10px;
   padding-bottom: 10px;
-  width: 100%;
+  width: 60%;
 }
 
 nav a {
@@ -109,6 +109,6 @@ nav a {
   font-family: sans-serif;
   text-decoration: none;
   /* text-align: center;  */
-  color: rgb(var(--SWAN-dark), .9);
+  /* color: rgb(var(--SWAN-dark)); */
   cursor: pointer;
 }
