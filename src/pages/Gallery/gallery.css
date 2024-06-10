@@ -1,5 +1,15 @@
 @import "~react-image-gallery/styles/css/image-gallery.css";
 
+.image-gallery {
+    height: 100%;
+    border: 5px solid rgb(var(--SWAN-vlight));
+    border-top: 0px;
+    border-bottom: 0px;
+    padding: 30px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
 .image-gallery-image {
     max-height: calc(70vh - 80px);
 }
