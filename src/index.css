@@ -34,6 +34,8 @@ header {
   align-items: center;
   width: 100%;
   /* background-color: rgba(var(--SWAN-medium)); */
+  box-sizing: border-box;
+  border-bottom: 5px solid rgb(var(--SWAN-vlight));
 }
 
 main {
@@ -51,6 +53,8 @@ footer {
   align-self: flex-end;
   max-height: 50px;
   width: 100%;
+  box-sizing: border-box;
+  border-top: 5px solid rgb(var(--SWAN-vlight));
 }
 
 .banner {
