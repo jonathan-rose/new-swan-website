@@ -9,11 +9,19 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 20px;
     border-bottom: 5px solid rgb(var(--SWAN-vlight));
 }
 
 .video-menu-item {
-    margin: 10px;
+    padding: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    border-right: 5px solid rgb(var(--SWAN-vlight));
+}
+
+.video-menu-item:last-child {
+    border-right: none;
 }
 
 .video-player-container {
