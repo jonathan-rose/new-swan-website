@@ -20,7 +20,7 @@ export default function Videos() {
                     // width='100%'
                     // height='100%'
                     controls={true}
-                    url='https://www.youtube.com/watch?v=LXb3EKWsInQ' />
+                    url='videos/eval2023-c.mp4'/>
             </div>
         </div>
     )
