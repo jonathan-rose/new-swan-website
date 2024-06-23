@@ -1,0 +1,23 @@
+.videos-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    align-self: flex-start;
+}
+
+.video-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border-bottom: 5px solid rgb(var(--SWAN-vlight));
+}
+
+.video-menu-item {
+    margin: 10px;
+}
+
+.video-player-container {
+    display: flex;
+}
