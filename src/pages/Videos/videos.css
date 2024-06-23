@@ -1,0 +1,39 @@
+.videos-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: flex-start;
+    width: 100%;
+}
+
+.video-menu {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    border-bottom: 5px solid rgb(var(--SWAN-vlight));
+}
+
+.video-menu-item {
+    flex: 1;
+    padding: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    border-right: 5px solid rgb(var(--SWAN-vlight));
+}
+
+.video-menu-item:last-child {
+    border-right: none;
+}
+
+.video-menu-item.selected {
+    font-style: italic;
+}
+
+.video-player-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
