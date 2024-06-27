@@ -20,15 +20,18 @@
     width: 100%;
     height: 100%;
     border-bottom: 5px solid rgb(var(--SWAN-vlight));;
+    /* margin: 0px;
+    margin-top: 20px;
+    margin-bottom: 20px; */
 }
 
 .activities-section:last-child {
     border-bottom: none;
 }
 
-.activities-section > *:first-child {
+/* .activities-section > *:first-child {
     border-right: 5px solid rgb(var(--SWAN-vlight));
-}
+} */
 
 .activities-text-container {
     display: flex;

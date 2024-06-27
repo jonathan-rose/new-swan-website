@@ -20,12 +20,25 @@ export default function About() {
             <div className="activities">
                 {sections.map((section) => (
                     <section key={section.id} className="activities-section">
-                        <div className='activities-img-container'>
-                            <img height="100%" src={section.imageUrl} alt="About Section Image"/>
-                        </div>
-                        <div className='activities-text-container'>
-                            <p>{section.text}</p>
-                        </div>
+                        {section.id % 2 === 0 ? (
+                            <>
+                                <div className='activities-img-container'>
+                                    <img height="100%" src={section.imageUrl} alt="About Section Image" />
+                                </div>
+                                <div className='activities-text-container'>
+                                    <p>{section.text}</p>
+                                </div>
+                            </>
+                        ) : (
+                            <>
+                                <div className='activities-text-container'>
+                                    <p>{section.text}</p>
+                                </div>
+                                <div className='activities-img-container'>
+                                    <img height="100%" src={section.imageUrl} alt="About Section Image" />
+                                </div>
+                            </>
+                        )}
                     </section>
                 ))}
             </div>
