@@ -17,18 +17,18 @@ const sections = activityData.map((item, index) => ({
 export default function About() {
     return (
         <div className='about-container'>
-            <section className="activity">
+            <div className="activities">
                 {sections.map((section) => (
-                    <div key={section.id} className="about-section">
-                        <div className='about-img-container'>
+                    <section key={section.id} className="activities-section">
+                        <div className='activities-img-container'>
                             <img height="100%" src={section.imageUrl} alt="About Section Image"/>
                         </div>
-                        <div className='about-text-container'>
+                        <div className='activities-text-container'>
                             <p>{section.text}</p>
                         </div>
-                    </div>
+                    </section>
                 ))}
-            </section>
+            </div>
         </div>
     );
 }
