@@ -1,0 +1,48 @@
+.ImgInfoSection {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border-bottom: 5px solid rgb(var(--SWAN-vlight));;
+    /* margin: 0px;
+    margin-top: 20px;
+    margin-bottom: 20px; */
+}
+
+.ImgInfoSection:last-child {
+    border-bottom: none;
+}
+
+/* .ImgInfo-section > *:first-child {
+    border-right: 5px solid rgb(var(--SWAN-vlight));
+} */
+
+.ImgInfoTextContainer {
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.ImgInfoTextContainer p {
+    margin: 0px;
+    /* height: 100%; */
+}
+
+.ImgInfoImgContainer {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.ImgInfoImgContainer img {
+    max-width: 100%;
+    height: auto;
+}
