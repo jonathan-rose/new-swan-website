@@ -16,6 +16,7 @@ export default function About() {
         <div className="activities">
           {activities.map((section) => (
             <ImgInfo
+              key={section.id}
               id={section.id}
               imageUrl={section.imageUrl}
               text={section.text}
