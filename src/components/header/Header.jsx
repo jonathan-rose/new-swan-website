@@ -21,7 +21,7 @@ export default function Header({ onLinkClick }) {
             <nav>
                 <a onClick={() => onLinkClick('home')}>Home</a>
                 <a onClick={() => onLinkClick('about')}>About</a>
-                <a onClick={() => onLinkClick('gallery')}>Gallery</a>
+                {/* <a onClick={() => onLinkClick('gallery')}>Gallery</a> */}
                 <a onClick={() => onLinkClick('videos')}>Videos</a>
                 <a onClick={() => onLinkClick('contact')}>Contact</a>
                 {/* <a href='https://www.facebook.com/swan.wsm/'>Facebook</a> */}
