@@ -6,6 +6,7 @@ import ImgInfo from '../../components/ImgInfo/ImgInfo';
 const activities = activityData.map((item, index) => ({
     id: index,
     imageUrl: item.imageUrl,
+    alt: item.altText,
     text: item.text,
 }));
 
@@ -18,6 +19,7 @@ export default function About() {
               id={section.id}
               imageUrl={section.imageUrl}
               text={section.text}
+              altText={section.alt}
             />
           ))}
         </div>
