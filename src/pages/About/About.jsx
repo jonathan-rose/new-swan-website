@@ -1,5 +1,5 @@
 import './about.css'
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import activityData from './activities.json';
 import ImgInfo from '../../components/ImgInfo/ImgInfo';
 
