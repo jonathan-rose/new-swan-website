@@ -8,10 +8,10 @@ export default function Contact() {
                     <span id="heading-span">
                         <h1 class="contact-heading">Contact Us</h1>
                     </span>
-                    <span class="contact-span">
+                    {/* <span class="contact-span">
                         <i class="fa-solid fa-mobile-screen"></i>
                         <p>01934 123 456</p>
-                    </span>
+                    </span> */}
                     <span class="contact-span">
                         <i class="fa-solid fa-envelope"></i>
                         <a href="mailto:info@swanwsm.oeg">info@swanwsm.org</a>
@@ -19,11 +19,11 @@ export default function Contact() {
                     <span class="contact-span" id="address-block">
                         <i class="fa-solid fa-location-dot"></i>
                         <span id="address-text">
-                            <p>Line One</p>
-                            <p>Line Two</p>
-                            <p>Line Three</p>
-                            <p>Line Four</p>
-                            <p>Line Five</p>
+                            <p>South Weston Activity Network</p>
+                            <p>For All Healthy Living Centre</p>
+                            <p>68 Lonsdale Avenue</p>
+                            <p>Weston-super-Mare</p>
+                            <p>BS23 3SJ</p>
                         </span>
                     </span>
                 </div>
