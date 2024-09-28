@@ -4,7 +4,6 @@ import Footer from './components/footer/Footer';
 import Header from './components/header/Header';
 import About from './pages/About/About';
 import Contact from './pages/Contact/Contact';
-import Gallery from './pages/Gallery/Gallery';
 import Home from './pages/Home/Home';
 import Videos from './pages/Videos/Videos';
 import './index.css';
@@ -30,8 +29,6 @@ export default function App() {
         return <Home />;
       case 'about':
         return <About />;
-      case 'gallery':
-        return <Gallery />;
       case 'videos':
         return <Videos />;
       case 'contact':
