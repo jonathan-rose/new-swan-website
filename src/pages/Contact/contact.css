@@ -39,7 +39,6 @@
     margin-bottom: 20px;
     background-color: rgba(var(--SWAN-vlight), 0.4);
     padding: 15px;
-    font-size: 1.5em;
 }
 
 .contact-span i {
@@ -77,7 +76,6 @@
 #address-block {
     display: flex;
     flex-direction: row;
-    margin-bottom: 0px;
 }
 
 #address-text {
