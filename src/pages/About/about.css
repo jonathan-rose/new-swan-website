@@ -1,13 +1,15 @@
 .about-container {
-    display: flex;
-    flex-direction: column;
     text-align: center;
-    justify-content: space-around;
-    align-items: center;
     height: 100%;
-    width: 75%;
 }
 
 .about-container > *:last-child {
     border-bottom: none;
+}
+
+.activities {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* THIS MAKES THE IMG INFO SECTIONS SIT IN THE MIDDLE */
+    width: 100%;
 }
