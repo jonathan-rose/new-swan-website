@@ -1,37 +1,32 @@
 [
     {
-        "imageUrl": "../../images/content/park1.jpg",
+        "imageUrl": "../../images/content/1.jpg",
         "altText": "A description of the image.",
-        "text": "This is the text for the first section."
+        "text": "Text visible to the reader."
     },
     {
-        "imageUrl": "../../images/content/park1.jpg",
+        "imageUrl": "../../images/content/2.jpg",
         "altText": "A description of the image.",
-        "text": "This is the text for the first section."
+        "text": "Text visible to the reader."
     },
     {
-        "imageUrl": "../../images/content/park1.jpg",
+        "imageUrl": "../../images/content/3.jpg",
         "altText": "A description of the image.",
-        "text": "This is the text for the first section."
+        "text": "Text visible to the reader."
     },
     {
-        "imageUrl": "../../images/content/park1.jpg",
+        "imageUrl": "../../images/content/4.jpg",
         "altText": "A description of the image.",
-        "text": "This is the text for the first section."
+        "text": "Text visible to the reader."
     },
     {
-        "imageUrl": "../../images/content/park1.jpg",
+        "imageUrl": "../../images/content/5.jpg",
         "altText": "A description of the image.",
-        "text": "This is the text for the first section."
+        "text": "Text visible to the reader."
     },
     {
-        "imageUrl": "../../images/content/park1.jpg",
+        "imageUrl": "../../images/content/6.jpg",
         "altText": "A description of the image.",
-        "text": "This is the text for the first section."
-    },
-    {
-        "imageUrl": "../../images/content/park1.jpg",
-        "altText": "A description of the image.",
-        "text": "This is the text for the second section."
+        "text": "Text visible to the reader."
     }
 ]
