@@ -1,4 +1,5 @@
 :root {
+  height: 100%;
   --SWAN-dark: 107, 0, 203;
   --SWAN-medium: 152, 74, 220;
   --SWAN-light: 183, 126, 229;
@@ -6,11 +7,8 @@
   background-color: rgba(var(--SWAN-vlight), .75);
 }
 
-div#root {
-  /* height: 100%; */
-}
-
 body {
+  height: 100%;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -19,17 +17,20 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+div#root {
+  height: 100%;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
 
 .App {
+  height: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  /* width: 100%; */
-  /* height: 100%; */
+  /* align-items: center; */
 }
 
 header {
