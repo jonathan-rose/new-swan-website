@@ -21,9 +21,8 @@
     text-align: center;
     justify-content: center;
     height: 100%;
-    padding: 10px;
-    padding-top: 0px;
-    padding-bottom: 0px;
+    max-width: max-content;
+    padding: 20px;
     border-right: 5px solid rgb(var(--SWAN-vlight));
 }
 
@@ -40,4 +39,14 @@
     max-width: 100%;
     height: auto;
     border: 5px solid rgb(var(--SWAN-vlight));
+}
+
+@media screen and (max-width: 900px) {
+    .home-content {
+        flex-direction: column;
+    }
+
+    .home-text {
+        border: none;
+    }
 }
