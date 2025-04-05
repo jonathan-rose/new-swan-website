@@ -35,12 +35,10 @@ code {
 
 header {
   display: flex;
-  /* flex: none; */
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
   width: 100%;
-  /* background-color: rgba(var(--SWAN-medium)); */
   box-sizing: border-box;
   border-bottom: 5px solid rgb(var(--SWAN-vlight));
 }
@@ -79,7 +77,10 @@ footer {
 .banner-item {
   display: flex;
   align-items: center;
+  justify-content: space-around;
   height: 100%;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 .banner-item h1 {
@@ -87,6 +88,7 @@ footer {
   font-weight: 700;
   font-style: normal;
   /* text-transform: uppercase; */
+  text-align: center;
 }
 
 .banner a {
@@ -132,4 +134,11 @@ nav a {
   /* text-align: center;  */
   /* color: rgb(var(--SWAN-dark)); */
   cursor: pointer;
+}
+
+@media screen and (max-width: 900px) {
+  .banner-item h1 {
+    font-size: 1.5em;
+    max-width: 50%;
+  }
 }

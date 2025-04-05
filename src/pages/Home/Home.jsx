@@ -8,7 +8,9 @@ export default function Home() {
                 <h2>We work with children, young people and families.</h2>
                 <h2>Together we can have a bigger impact.</h2>
             </div>
-            <img className="home-image" alt="The SWAN team." src="../../images/content/park1.jpg" />
+            <div className="home-image">
+                <img alt="The SWAN team." src="../../images/content/park1.jpg" />
+            </div>
         </div>
     )
 }

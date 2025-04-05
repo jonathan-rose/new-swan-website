@@ -11,6 +11,7 @@
     border-right: none;
     align-items: center;
     justify-content: space-around;
+    overflow: hidden;
 }
 
 .home-text {
@@ -18,16 +19,34 @@
     flex-direction: column;
     flex: 1;
     text-align: center;
-    padding: 10px;
-    padding-top: 0px;
-    padding-bottom: 0px;
+    justify-content: center;
+    height: 100%;
+    max-width: max-content;
+    padding: 20px;
+    border-right: 5px solid rgb(var(--SWAN-vlight));
 }
 
 .home-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     flex: 2;
-    width: 40%;
-    height: 100%;
-    object-fit: cover;
-    box-sizing: border-box;
-    border-left: 5px solid rgb(var(--SWAN-vlight));
+    padding: 0px;
+    margin: 0px;
+}
+
+.home-image img {
+    max-width: 100%;
+    height: auto;
+    border: 5px solid rgb(var(--SWAN-vlight));
+}
+
+@media screen and (max-width: 900px) {
+    .home-content {
+        flex-direction: column;
+    }
+
+    .home-text {
+        border: none;
+    }
 }
