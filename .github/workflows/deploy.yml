@@ -1,4 +1,4 @@
-name: Deploy to Namecheap cPanel
+name: Deploy to Namecheap cPanel via FTP
 
 on:
   push:
@@ -25,10 +25,10 @@ jobs:
       run: npm run build
 
     - name: Deploy to cPanel via SSH
-      uses: appleboy/scp-action@v0.1.4
+      uses: SamKirkland/FTP-Deploy-Action@v4.1.0
       with: 
-        host: ${{ secrets.CPANEL_HOST }}
-        username: ${{ secrets.CPANEL_USER }}
-        key: ${{ secrets.CPANEL_SSH_KEY }}
+        host: ${{ secrets.FTP_HOST }}
+        username: ${{ secrets.FTP.USERNAME }}
+        key: ${{ secrets.FTP_PASSWORD }}
         source: "build/*"
         target: "/home/swanihvk/public_html"
