@@ -25,10 +25,10 @@ jobs:
       run: npm run build
 
     - name: Deploy to cPanel via SSH
-      uses: SamKirkland/FTP-Deploy-Action@v4.1.0
+      uses: SamKirkland/FTP-Deploy-Action@v4
       with: 
-        host: ${{ secrets.FTP_HOST }}
+        server: ${{ secrets.FTP_HOST }}
         username: ${{ secrets.FTP.USERNAME }}
-        key: ${{ secrets.FTP_PASSWORD }}
-        source: "build/*"
-        target: "/home/swanihvk/public_html"
+        password: ${{ secrets.FTP_PASSWORD }}
+        local-dir: "build/*"
+        server-dir: "/home/swanihvk/public_html"
