@@ -20,9 +20,9 @@ export default function Header({ onLinkClick }) {
             </div>
             <nav>
                 <a href="Home" onClick={(e) => {e.preventDefault(); onLinkClick('home')}}>Home</a>
-                <a href="About" onClick={(e) => {e.preventDefault(); onLinkClick('about')}}>About</a>
+                {/* <a href="About" onClick={(e) => {e.preventDefault(); onLinkClick('about')}}>About</a> */}
                 {/* <a onClick={() => onLinkClick('gallery')}>Gallery</a> */}
-                <a href="Videos" onClick={(e) => {e.preventDefault(); onLinkClick('videos')}}>Videos</a>
+                <a href="Media" onClick={(e) => {e.preventDefault(); onLinkClick('videos')}}>Media</a>
                 <a href="Contact" onClick={(e) => {e.preventDefault(); onLinkClick('contact')}}>Contact</a>
                 {/* <a href='https://www.facebook.com/swan.wsm/'>Facebook</a> */}
             </nav>
