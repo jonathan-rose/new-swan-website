@@ -5,6 +5,7 @@ import './videos.css'
 export default function Videos() {
 
     const videos = [
+        { url: "videos/promo2026.mp4", title: "Promo 2026" },
         { url: "videos/eval2023-c.mp4", title: "Eval 2023" },
         { url: "videos/culture.mp4", title: "Culture" },
         { url: "videos/pride2023.mp4", title: "Pride" },
