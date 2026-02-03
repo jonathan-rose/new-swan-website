@@ -33,7 +33,23 @@
 
 .video-player-container {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     margin-top: 50px;
+}
+
+.fullscreen-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: rgb(var(--SWAN-vlight));
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.fullscreen-button:hover {
+    opacity: 0.8;
 }
