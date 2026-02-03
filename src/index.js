@@ -1,5 +1,6 @@
-import React, { useState } from 'react';
+import React from 'react';
 import ReactDOM from 'react-dom/client';
+import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import Footer from './components/footer/Footer';
 import Header from './components/header/Header';
 import About from './pages/About/About';
@@ -17,32 +18,23 @@ root.render(
 );
 
 export default function App() {
-  const [activeContent, setActiveContent] = useState('home');
-
-  const handleLinkClick = (content) => {
-    setActiveContent(content);
-  };
-
-  const renderContent = () => {
-    switch (activeContent) {
-      case 'home':
-        return <Home />;
-      case 'about':
-        return <About />;
-      case 'videos':
-        return <Videos />;
-      case 'contact':
-        return <Contact />;
-      default:
-        return <p>Error: Unknown content</p>;
-    }
-  };
-
   return (
-    <div className="App">
-      <Header onLinkClick={handleLinkClick} />
-      <main>{renderContent()}</main>
-      <Footer />
-    </div>
+    <BrowserRouter>
+      <div className="App">
+        <Header />
+        <main>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/home" element={<Navigate to="/" replace />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/media" element={<Videos />} />
+            <Route path="/videos" element={<Navigate to="/media" replace />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="*" element={<Navigate to="/" replace />} />
+          </Routes>
+        </main>
+        <Footer />
+      </div>
+    </BrowserRouter>
   )
 }
